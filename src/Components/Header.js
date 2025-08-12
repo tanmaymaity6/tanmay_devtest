@@ -3,7 +3,7 @@ import { FaDownload } from 'react-icons/fa'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-// import resume from '../assets/tanmay'
+import resume from '../assets/arjunsingh.pdf'
 
 export const Header = () => {
   const [text] = useTypewriter({
@@ -15,7 +15,7 @@ export const Header = () => {
     <div name="home" className='w-full  h-screen bg-slate-950'>
       <div className='max-w-[1000px] mx-auto px-8  flex flex-col justify-center h-full '>
         <h1 className='text-[#87CEEB]'>Hi, my name is</h1>
-        <h2 className='text-4xl sm:text-6xl font-bold text-[#ccd6f6]'>Tanmay Maity</h2>
+        <h2 className='text-4xl sm:text-6xl font-bold text-[#ccd6f6]'>Arjun Rajput</h2>
         <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>I {text}
           <span><Cursor /></span>
         </h2>
@@ -27,7 +27,7 @@ export const Header = () => {
               <span className='ml-2 group-hover:rotate-90 duration-300'><HiArrowNarrowRight /></span>
             </button>
           </Link>
-          <a href={} download={""} className='bg-[#87CEEB] border-2  border-[#87CEEB] text-slate-950 px-1 py-1 md:px-6 md:py-3 md:my-2 flex items-center duration-200'>
+          <a href={resume} download={"arjunsingh_frontend_developer.pdf"} className='bg-[#87CEEB] border-2  border-[#87CEEB] text-slate-950 px-1 py-1 md:px-6 md:py-3 md:my-2 flex items-center duration-200'>
             Resume <FaDownload className='ml-1' />
 
           </a>
