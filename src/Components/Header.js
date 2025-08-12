@@ -7,7 +7,7 @@ import resume from '../assets/Tanmay_Maity_Resume.pdf'
 
 export const Header = () => {
   const [text] = useTypewriter({
-    words: ['am a developer.', 'love to code.', 'like to make projects.'],
+    words: ['am a frontend developer.', 'love to code.', 'like to make projects.'],
     loop: {}
   })
 
@@ -19,7 +19,7 @@ export const Header = () => {
         <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>I {text}
           <span><Cursor /></span>
         </h2>
-        <p className='text-[#8892b0] py-4  max-w-[700px] '>An Aspiring Data Engineer. I learn new things and make good projects.</p>
+        <p className='text-[#8892b0] py-4  max-w-[700px] '>An Aspiring Web Developer. I learn new things and make good projects.</p>
         <div className='flex gap-5 items-center'>
           <Link to="home-projects1" smooth={true} duration={500}>
             <button className='group bg-[#87CEEB] border-2  border-[#87CEEB] text-slate-950 px-1 py-1 md:px-6 md:py-3 my-2 flex items-center duration-200'>
