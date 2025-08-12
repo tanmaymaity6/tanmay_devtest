@@ -11,7 +11,7 @@ export const Navbar = () => {
     <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-slate-950 text-gray-300' >
       <div>
         <img src="" alt="" />
-        <h1 className='text-[#87CEEB] font-bold text-2xl'>Arjun Rajput</h1>
+        <h1 className='text-[#87CEEB] font-bold text-2xl'>Tanmay Maity</h1>
       </div>
 
       {/* after md screen it will be flex */}
