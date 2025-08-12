@@ -16,7 +16,7 @@ export const AboutSkills = () => {
         <div className='lg:mr-24 text-center'>
           <h2 className='mb-10 text-4xl px-2 font-bold'>Something about <span className='text-[#87ceeb]'>me</span> and my <span className='text-[#87ceeb]'>skills</span></h2>
           <p className='sm:w-96 mx-auto text-lg  mb-8  text-slate-900 px-8'>
-          Dedicated software engineer with expertise in web development and data analysis, skilled in Python, SQL and JavaScript. Proven track record of enhancing project outcomes through data-driven solutions. Aims to leverage technical skills in a dynamic team environment.</p>
+Hello, I'm Tanmay, a frontend developer with 3+ years of experience in React.js. I enjoy exchanging ideas, spreading knowledge, and promoting positivity in the tech community. Let's connect and share our thoughts!.</p>
           <img src={img} alt="" className='w-[250px] md:w-[300px] mx-auto' />
         </div>
 
@@ -41,7 +41,7 @@ export const AboutSkills = () => {
           <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
             <span ><img src={TailwindImg} alt="" className='w-14 h-8' /></span>
             <p> <span className='text-[#44a8b3] font-bold'>Tailwind CSS :</span> Makes it easy to create responsive layouts using its built-in responsive classes</p>
-          </div> 
+          </div>
           <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
             <span className='bg-black w-fit rounded-xl' ><img src={Github} alt="" className='w-14 h-8' /></span>
             <p> <span className='text-black font-bold'>Github :</span> Exploring its collaborative features for effective version control and project management.</p>
