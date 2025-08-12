@@ -14,7 +14,7 @@ export const Projects = () => {
     <div className='w-full mx-auto bg-slate-950 h-full'>
       <div className='sticky w-full h-[70px] flex items-center justify-between  px-4 bg-slate-950 text-gray-300 top-0 left-0' >
         <div>
-          <h1 className='text-[#87CEEB] font-bold lg:text-2xl'>Arjun Rajput</h1>
+          <h1 className='text-[#87CEEB] font-bold lg:text-2xl'>Tanmay Maity</h1>
         </div>
         <div>
           <button onClick={handleHomeClick} className='tracking-widest  lg:text-xl border-2 border-[#87ceeb] px-5 bg-slate-950 text-[#87CEEB] hover:bg-[#87ceeb] hover:text-slate-950 flex items-center'><IoMdArrowBack className='mr-2' />Home</button>
