@@ -11,7 +11,7 @@ export const Navbar = () => {
     <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-slate-950 text-gray-300' >
       <div>
         <img src="" alt="" />
-        <h1 className='text-[#87CEEB] font-bold text-2xl'>Tanmay Maity</h1>
+        <h1 className='text-[#87CEEB] font-bold text-2xl'>Arjun Rajput</h1>
       </div>
 
       {/* after md screen it will be flex */}
@@ -25,12 +25,12 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="home-projects1" smooth={true} duration={500}>
+          <Link to="home-projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="blogs1" smooth={true} duration={500}>
+          <Link to="blogs" smooth={true} duration={500}>
             Blogs
           </Link>
         </li>
