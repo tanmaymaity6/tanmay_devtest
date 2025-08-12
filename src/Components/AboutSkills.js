@@ -34,14 +34,14 @@ export const AboutSkills = () => {
             <p> <span className='text-yellow-400 font-bold'>JavaScript :</span> Exploring JavaScript's dynamic potential, months of learning for enhanced functionality and interactivity..</p>
           </div>
 
-          {/* <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
+          <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
             <span ><img src={ReactImg} alt="" className='w-14 h-8' /></span>
             <p> <span className='text-sky-400 font-bold'>ReactJs :</span> Learning its powerful features to create engaging and interactive web applications.</p>
           </div>
           <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
             <span ><img src={TailwindImg} alt="" className='w-14 h-8' /></span>
             <p> <span className='text-[#44a8b3] font-bold'>Tailwind CSS :</span> Makes it easy to create responsive layouts using its built-in responsive classes</p>
-          </div> */}
+          </div> 
           <div className="flex items-center gap-5  my-6 px-5 py-2 bg-gray-100 rounded-lg">
             <span className='bg-black w-fit rounded-xl' ><img src={Github} alt="" className='w-14 h-8' /></span>
             <p> <span className='text-black font-bold'>Github :</span> Exploring its collaborative features for effective version control and project management.</p>
