@@ -14,8 +14,8 @@ export const ProjectsData = [
     img: SpeedyBuy,
     description: "An e-commerce app where users can buy online cloths.",
     technologies: [ReactJs, CSS],
-    link: "https://speedybuy.netlify.app/",
-    sourceLink: "https://github.com/arjunrajput18/speedyBuyWeb"
+    link: "https://speedybuyapp.netlify.app/",
+    sourceLink: "https://github.com/tanmaymaity6/speedyBuyWeb"
   },
   {
     name: "SpeedySocial - Social Media App",
